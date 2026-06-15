@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routers import intent
 
-app = FastAPI(title="QuickCart AI", version="1.0.0")
+app = FastAPI(title="UrbanRush", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,

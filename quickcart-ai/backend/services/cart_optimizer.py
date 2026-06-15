@@ -70,6 +70,6 @@ def build_cart(products: list, intent: dict) -> dict:
         "confidence": confidence,
         "confidence_label": _confidence_label(confidence),
         "confidence_color": _confidence_color(confidence),
-        "time_saved_sec": 285,  # Traditional ≈ 5 min (300s), QuickCart ≈ 15s
+        "time_saved_sec": 285,  # Traditional ≈ 5 min (300s), UrbanRush ≈ 15s
         "time_saved_label": "You saved ~4 min 45 sec vs traditional search",
     }

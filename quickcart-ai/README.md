@@ -45,17 +45,23 @@ into ~15 seconds instead of 5 minutes of manual searching.
 
 **Purchase**
 - **AI Predictions strip** + **Memory Orbit** dashboard.
+- **AI-Generated Kits** — the cart shown as themed bundles (match score + "why" + Explain/Edit).
 - **Instamart-style review cart** + quantity steppers.
 - **Regret-free checkout** — 10s safety-net confirm for high-quantity items.
 - **Order success** + delivery countdown; **cart narration** (read aloud).
 
 ---
 
-## 🧱 Tech Stack
+## 2. Tech Stack — and how it maps to Amazon
 
-- **Backend:** FastAPI (Python), AWS Bedrock (Claude 3.5 Sonnet), boto3
+- **Backend:** FastAPI (Python), AWS Bedrock (Claude 3.5 Sonnet via `invoke_model` + SSE streaming), boto3
 - **Frontend:** React 18 + Vite + Tailwind CSS (glassmorphism / liquid blue-white theme)
 - **Data:** 100-product Indian quick-commerce catalog (`backend/data/products.json`)
+
+**Runs on the Amazon stack:** Bedrock (Claude 3.5 Sonnet, `apac` profile in `ap-south-1`) for
+intent + reasoning · ECS/Fargate + ALB for the stateless API · DynamoDB/OpenSearch for the catalog
+at scale · ElastiCache (Redis) for intent caching · S3 + CloudFront for the web app and product
+images · Bedrock Provisioned Throughput for high load. See **[PRD.md](./PRD.md)** for the full mapping.
 
 ---
 

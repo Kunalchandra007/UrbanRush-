@@ -52,7 +52,34 @@ That alone wins the core theme. Everything below is "and there's more."
 
 ---
 
-## If something fails (graceful recovery)
+## Tech & Amazon-fit talking points (say these during/after the demo)
+
+Weave these in so judges hear *what* powers it and *how it scales on Amazon*:
+
+- **"The brain is Amazon Bedrock — Claude 3.5 Sonnet."** Every situation is turned into a
+  structured intent JSON by Claude via Bedrock's `invoke_model` (and `invoke_model_with_response_stream`
+  for the live reasoning). We use the **`apac` inference profile in `ap-south-1` (Mumbai)** to
+  minimise latency for Indian users.
+- **"It's a managed model — zero hosting."** No GPUs, no model ops; Bedrock handles it. For scale we
+  switch on **Bedrock Provisioned Throughput** to remove on-demand throttling.
+- **"The backend is FastAPI — async-native,"** so Server-Sent Events stream the AI's reasoning
+  token-by-token (`/intent/extract-stream`). It's **stateless**, so it scales horizontally on
+  **Amazon ECS / Fargate** behind an **ALB** with no code changes.
+- **"One LLM call per cart, not one per item."** Reasons for all items are generated in a single
+  batched Bedrock call — O(1) instead of O(n) — which is the cost/latency lever at scale.
+- **"AI enhances, never blocks."** Every Bedrock call has a deterministic fallback (rule engine) +
+  exponential backoff — so a throttle or outage never breaks checkout.
+- **"Scales onto the Amazon stack cleanly":** catalog JSON → **DynamoDB / OpenSearch** for thousands
+  of SKUs; intent cache → **ElastiCache (Redis)**; product images → **S3 + CloudFront**; frontend →
+  **S3 + CloudFront**. The scoring formula is catalog-agnostic, so swapping the data source doesn't
+  touch the recommendation logic.
+- **"This is exactly the Amazon Now thesis"** — reduce time-to-checkout from minutes to seconds. The
+  **Intent API** could sit on top of Amazon's existing fulfilment + catalog as a situational layer.
+- **Show the kits:** "The cart is presented as themed **AI-generated kits** — Comfort, Energy,
+  Snacks — each with a match score and a one-line 'why', so the customer decides in one glance."
+
+---
+
 
 - **Voice error** → "Voice needs Chrome/Edge + mic permission — let me type it instead." (Type the same thing.)
 - **AWS billing not active** → "We're in demo mode — the rule-based fallback builds the same cart, which is itself an architecture feature: AI enhances, never blocks."

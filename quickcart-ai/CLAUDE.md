@@ -7,7 +7,7 @@ context continuity across sessions.
 
 ## 🎯 Project Goal
 
-QuickCart AI for **HackOn with Amazon 2025** — a Blinkit/Instamart-style quick-commerce
+UrbanRush for **HackOn with Amazon 2025** — a Blinkit/Instamart-style quick-commerce
 app. User describes a situation in natural language; AI builds a full, prioritized cart
 instantly. Target: fast, visual, judge-impressing demo showcasing AI reasoning.
 
@@ -143,6 +143,13 @@ instantly. Target: fast, visual, judge-impressing demo showcasing AI reasoning.
 - More product photos added (name-based images mapped to IDs; webp/avif → jpg). Card images use `object-contain` on white. Image chain: `/products/<ID>.jpg` → online → emoji.
 - Frontend API base is configurable via `VITE_API_BASE` (for deployment).
 - New docs: **PRD.md**, **DEMO_SCRIPT.md**, **DEPLOYMENT.md**.
+
+### Phase 20 — Branding, floating header, kits
+- Renamed **QuickCart AI → UrbanRush** across app + docs (FastAPI title, package name, comments).
+- **Floating rounded glass header** (`glass-blue`, `sticky top-2`, margins) — removed the dark bar.
+- **Removed the redundant blue delivery banner** (location already shown in the greeting).
+- **AI-Generated Kits** — cart presented as themed bundle cards (`KitsRow.jsx` / `KitCard.jsx`): match score, 4 thumbnails, one-line "why", Explain/Edit.
+- Docs (README, PRD, DEMO_SCRIPT, ARCHITECTURE) now spell out the **AWS/Bedrock** stack and **Amazon scaling** path (ECS, DynamoDB, OpenSearch, ElastiCache, S3/CloudFront, Provisioned Throughput).
 
 ---
 

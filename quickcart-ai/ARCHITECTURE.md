@@ -192,6 +192,7 @@ instant and reliable.
 **Decision intelligence**
 - 4-factor scoring + diversity — `recommendation_engine.py`
 - Smart bundles (gap fill) — `bundle_engine.py`, `BundleInsightBanner.jsx`
+- AI-Generated Kits (themed bundle cards) — `KitsRow.jsx`, `KitCard.jsx`
 - Urgency heatmap — `utils/urgencyColor.js`, `ProductCard.jsx`
 - Confidence score — `cart_optimizer.py`, `IntentBadge.jsx`
 - Per-item AI reasons — `generate_reasons_batch`

@@ -27,6 +27,7 @@ import RegretGuard from "../components/RegretGuard";
 import PartyMode from "../components/PartyMode";
 import WeeklyEnvelope from "../components/WeeklyEnvelope";
 import AiPredictions from "../components/AiPredictions";
+import KitsRow from "../components/KitsRow";
 import MemoryOrbit from "../components/MemoryOrbit";
 import AskBubble from "../components/AskBubble";
 import { JudgeModeToggle, JudgeAnnotation } from "../components/JudgeMode";
@@ -470,9 +471,9 @@ export default function Home() {
         <span className="blob b3" />
       </div>
 
-      {/* HEADER */}
-      <header className="sticky top-0 z-40 glass-blue rounded-b-2xl">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      {/* HEADER — floating rounded glass bar */}
+      <header className="sticky top-2 z-40 px-3">
+        <div className="max-w-6xl mx-auto glass-blue rounded-2xl px-4 py-2.5 flex items-center justify-between shadow-lg">
           <div className="flex items-center gap-2.5">
             <span className="flex items-center justify-center h-10 w-10 rounded-xl bg-white shadow-md ring-1 ring-blue-100 overflow-hidden">
               <img src="/bolt.png?v=2" alt="UrbanRush bolt" className="h-8 w-8 object-contain" />
@@ -519,16 +520,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* DELIVERY BANNER */}
-      <div className="max-w-6xl mx-auto px-4 mt-2">
-        <div className="bg-gradient-to-r from-blue-600 to-sky-500 text-white py-2 px-4 text-sm flex items-center justify-between shadow-md rounded-xl">
-          <span>📍 Delivering to: {deliveryCity}</span>
-          <span className="text-blue-100 text-xs">Free over ₹99</span>
-        </div>
-      </div>
-
       {/* PERSONAL GREETING */}
-      <div className="max-w-6xl mx-auto px-4 mt-2">
+      <div className="max-w-6xl mx-auto px-4 mt-3">
         <GreetingHeader key={greetKey} onLocation={setDeliveryCity} />
       </div>
 
@@ -872,6 +865,9 @@ export default function Home() {
                   ✎ Edit Cart
                 </button>
               </div>
+
+              {/* Kit cards — themed bundles */}
+              <KitsRow groups={groupedItems} intent={intent} onEdit={() => setShowReview(true)} />
 
               {/* Priority legend */}
               <div className="flex gap-4 mb-4 items-center px-1">

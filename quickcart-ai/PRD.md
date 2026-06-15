@@ -50,9 +50,22 @@
 - **Urgency Heatmap** — every item tagged 🔴 Critical / 🟡 Helpful / 🟢 Nice-to-have for instant cut decisions.
 - **Smart Bundle Engine** — detects missing essentials (e.g., napkins for a party) and auto-fills the gap.
 - **Panic Mode** — zero typing; reads time + live weather + location.
-- **One-tap Swap** — remove/switch any item, 3 AI-ranked alternatives appear inline.
+- **One-tap Swap** — remove/switch any item, 3 AI-ranked alternatives appear inline (and it **learns your brand preference**).
+- **AI-Generated Kits** — the cart is presented as themed bundles (Comfort / Energy / Snack kits) each with a match score + one-line "why" + Explain/Edit.
 - **Personalization** — greeting, "Your usual" badges, depletion prediction ("milk runs out in ~1 day"), weekly budget envelope, learned brand preference.
 - **Beyond-feature differentiators** — Situational Memory (replay), Live Thinking Stream, Cart Diff, Crisis Triage, Party Mode (group voice cart), Mood→cart, Recipe→cart.
+
+## 6a. How It Runs on Amazon (services mapping)
+
+| Layer | Amazon service | Role |
+|-------|----------------|------|
+| LLM intent + reasoning | **Amazon Bedrock — Claude 3.5 Sonnet** (`apac` profile, `ap-south-1`) | Situation → structured intent JSON; streamed reasoning. Managed, no GPU ops. |
+| Throughput at scale | **Bedrock Provisioned Throughput** | Removes on-demand throttle under load. |
+| API backend | **ECS / Fargate** behind an **ALB** | Stateless FastAPI; horizontal autoscaling. |
+| Catalog (1000s SKUs) | **DynamoDB** / **OpenSearch** | Replaces in-memory JSON; scoring stays catalog-agnostic. |
+| Intent cache | **ElastiCache (Redis)** | Cache identical situations (short TTL). |
+| Images + web app | **S3 + CloudFront** | Product photos + the React build, globally cached. |
+| Personalization store | **DynamoDB** | Per-user profile, preferences, depletion history. |
 
 ## 7. Architecture (at a glance)
 
