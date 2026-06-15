@@ -1,0 +1,1555 @@
+[
+  {
+    "id": "P001",
+    "name": "Lay's Classic Salted Chips 90g",
+    "brand": "Lay's",
+    "category": "snacks",
+    "tags": [
+      "chips",
+      "snacks",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 30,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P002",
+    "name": "Coca-Cola 750ml",
+    "brand": "Coca-Cola",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "soda",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 45,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P003",
+    "name": "Amul Butter 100g",
+    "brand": "Amul",
+    "category": "dairy",
+    "tags": [
+      "dairy",
+      "butter",
+      "breakfast"
+    ],
+    "price_inr": 56,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P004",
+    "name": "Britannia Bread 400g",
+    "brand": "Britannia",
+    "category": "bakery",
+    "tags": [
+      "bread",
+      "bakery",
+      "breakfast"
+    ],
+    "price_inr": 35,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P005",
+    "name": "Pepsi 750ml",
+    "brand": "Pepsi",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "soda",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 42,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P006",
+    "name": "Kurkure Masala Munch 90g",
+    "brand": "Kurkure",
+    "category": "snacks",
+    "tags": [
+      "chips",
+      "snacks",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 20,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P007",
+    "name": "Parle-G Biscuits 200g",
+    "brand": "Parle",
+    "category": "bakery",
+    "tags": [
+      "biscuits",
+      "snacks",
+      "breakfast"
+    ],
+    "price_inr": 25,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P008",
+    "name": "Amul Milk 500ml",
+    "brand": "Amul",
+    "category": "dairy",
+    "tags": [
+      "dairy",
+      "milk",
+      "breakfast"
+    ],
+    "price_inr": 28,
+    "rating": 4.9,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P009",
+    "name": "Sprite 750ml",
+    "brand": "Sprite",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "soda",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 42,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P010",
+    "name": "Popcorn Pack 100g",
+    "brand": "Act II",
+    "category": "snacks",
+    "tags": [
+      "popcorn",
+      "snacks",
+      "movie_night"
+    ],
+    "price_inr": 35,
+    "rating": 4.3,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585647347384-2593bc35786b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P011",
+    "name": "Cerelac Baby Food 300g",
+    "brand": "Nestlé",
+    "category": "baby",
+    "tags": [
+      "baby",
+      "baby_care",
+      "baby_food"
+    ],
+    "price_inr": 180,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P012",
+    "name": "Johnson's Baby Powder 200g",
+    "brand": "Johnson's",
+    "category": "baby",
+    "tags": [
+      "baby",
+      "baby_care",
+      "powder"
+    ],
+    "price_inr": 155,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P013",
+    "name": "Dettol Soap 125g",
+    "brand": "Dettol",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "soap",
+      "hygiene"
+    ],
+    "price_inr": 38,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P014",
+    "name": "Colgate Toothpaste 200g",
+    "brand": "Colgate",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "toothpaste",
+      "hygiene"
+    ],
+    "price_inr": 95,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P015",
+    "name": "Maggi Noodles 70g x 4",
+    "brand": "Maggi",
+    "category": "snacks",
+    "tags": [
+      "noodles",
+      "snacks",
+      "breakfast",
+      "emergency"
+    ],
+    "price_inr": 52,
+    "rating": 4.9,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585325701956-60dd9c8399f0?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P016",
+    "name": "Torch Light LED",
+    "brand": "Eveready",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "power_cut",
+      "torch",
+      "light"
+    ],
+    "price_inr": 150,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P017",
+    "name": "Batteries AA Pack of 4",
+    "brand": "Duracell",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "power_cut",
+      "batteries"
+    ],
+    "price_inr": 80,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P018",
+    "name": "Candles Pack of 10",
+    "brand": "Generic",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "power_cut",
+      "candles",
+      "light"
+    ],
+    "price_inr": 30,
+    "rating": 4.2,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1602178506527-95bc4f5e5276?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P019",
+    "name": "Classmate Notebook 172 Pages",
+    "brand": "Classmate",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "notebook",
+      "exam",
+      "study"
+    ],
+    "price_inr": 45,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P020",
+    "name": "Cello Pens Pack of 10",
+    "brand": "Cello",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "pens",
+      "exam",
+      "study"
+    ],
+    "price_inr": 50,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P021",
+    "name": "Red Bull Energy Drink 250ml",
+    "brand": "Red Bull",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "energy",
+      "exam",
+      "study"
+    ],
+    "price_inr": 125,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P022",
+    "name": "Bournvita 500g",
+    "brand": "Cadbury",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "health",
+      "breakfast",
+      "energy"
+    ],
+    "price_inr": 215,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P023",
+    "name": "Horlicks 500g",
+    "brand": "Horlicks",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "health",
+      "breakfast",
+      "energy"
+    ],
+    "price_inr": 230,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P024",
+    "name": "Nescafe Coffee 50g",
+    "brand": "Nescafe",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "coffee",
+      "breakfast",
+      "exam",
+      "study"
+    ],
+    "price_inr": 135,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P025",
+    "name": "Tata Tea Gold 250g",
+    "brand": "Tata",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "tea",
+      "breakfast"
+    ],
+    "price_inr": 120,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P026",
+    "name": "Cadbury Dairy Milk 55g",
+    "brand": "Cadbury",
+    "category": "snacks",
+    "tags": [
+      "chocolate",
+      "snacks",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 50,
+    "rating": 4.9,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P027",
+    "name": "Kitkat Chocolate 40g",
+    "brand": "Kitkat",
+    "category": "snacks",
+    "tags": [
+      "chocolate",
+      "snacks",
+      "party"
+    ],
+    "price_inr": 40,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P028",
+    "name": "Tropicana Orange Juice 1L",
+    "brand": "Tropicana",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "juice",
+      "breakfast",
+      "party"
+    ],
+    "price_inr": 110,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P029",
+    "name": "Haldiram's Bhujia 200g",
+    "brand": "Haldiram's",
+    "category": "snacks",
+    "tags": [
+      "snacks",
+      "namkeen",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 55,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P030",
+    "name": "Amul Cheese Slices 200g",
+    "brand": "Amul",
+    "category": "dairy",
+    "tags": [
+      "dairy",
+      "cheese",
+      "breakfast",
+      "party"
+    ],
+    "price_inr": 125,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P031",
+    "name": "Sunfeast Dark Fantasy 150g",
+    "brand": "Sunfeast",
+    "category": "bakery",
+    "tags": [
+      "biscuits",
+      "snacks",
+      "party"
+    ],
+    "price_inr": 70,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P032",
+    "name": "Oreo Biscuits 150g",
+    "brand": "Oreo",
+    "category": "bakery",
+    "tags": [
+      "biscuits",
+      "snacks",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 30,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P033",
+    "name": "Amul Ice Cream Vanilla 500ml",
+    "brand": "Amul",
+    "category": "dairy",
+    "tags": [
+      "dairy",
+      "ice_cream",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 120,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1580915411954-282cb1b0d780?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P034",
+    "name": "Pediasure Vanilla 400g",
+    "brand": "Abbott",
+    "category": "baby",
+    "tags": [
+      "baby",
+      "baby_care",
+      "health",
+      "nutrition"
+    ],
+    "price_inr": 585,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P035",
+    "name": "Pampers Diapers Small Pack of 20",
+    "brand": "Pampers",
+    "category": "baby",
+    "tags": [
+      "baby",
+      "baby_care",
+      "diapers"
+    ],
+    "price_inr": 499,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P036",
+    "name": "Baby Wipes Pack of 80",
+    "brand": "Mee Mee",
+    "category": "baby",
+    "tags": [
+      "baby",
+      "baby_care",
+      "wipes",
+      "hygiene"
+    ],
+    "price_inr": 149,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P037",
+    "name": "Crocin Advance 500mg 15 Tablets",
+    "brand": "Crocin",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "medicine",
+      "baby_care",
+      "fever",
+      "health"
+    ],
+    "price_inr": 31,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P038",
+    "name": "Vicks Vaporub 50ml",
+    "brand": "Vicks",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "medicine",
+      "baby_care",
+      "cold"
+    ],
+    "price_inr": 120,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P039",
+    "name": "ORS Powder Pack of 10",
+    "brand": "Electral",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "medicine",
+      "baby_care",
+      "health"
+    ],
+    "price_inr": 85,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P040",
+    "name": "Thermometer Digital",
+    "brand": "Omron",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "baby_care",
+      "health",
+      "fever"
+    ],
+    "price_inr": 250,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P041",
+    "name": "Lifebuoy Soap 125g",
+    "brand": "Lifebuoy",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "soap",
+      "hygiene"
+    ],
+    "price_inr": 33,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P042",
+    "name": "Dove Shampoo 340ml",
+    "brand": "Dove",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "shampoo",
+      "hair"
+    ],
+    "price_inr": 285,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P043",
+    "name": "Ponds Face Cream 50g",
+    "brand": "Ponds",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "face_cream",
+      "beauty"
+    ],
+    "price_inr": 149,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P044",
+    "name": "Gillette Razor + 2 Blades",
+    "brand": "Gillette",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "shaving",
+      "grooming"
+    ],
+    "price_inr": 95,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P045",
+    "name": "Lux Soap 125g",
+    "brand": "Lux",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "soap",
+      "hygiene"
+    ],
+    "price_inr": 36,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P046",
+    "name": "Vim Dishwash Gel 750ml",
+    "brand": "Vim",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "kitchen",
+      "dishwash"
+    ],
+    "price_inr": 95,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P047",
+    "name": "Harpic Toilet Cleaner 500ml",
+    "brand": "Harpic",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "toilet",
+      "hygiene"
+    ],
+    "price_inr": 105,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P048",
+    "name": "Lizol Floor Cleaner 500ml",
+    "brand": "Lizol",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "floor",
+      "hygiene"
+    ],
+    "price_inr": 85,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P049",
+    "name": "Scotch Brite Scrub Pad Pack of 3",
+    "brand": "3M",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "kitchen",
+      "scrub"
+    ],
+    "price_inr": 55,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P050",
+    "name": "Surf Excel Detergent 1kg",
+    "brand": "Surf Excel",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "laundry",
+      "detergent"
+    ],
+    "price_inr": 185,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P051",
+    "name": "Tide Detergent 1kg",
+    "brand": "Tide",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "laundry",
+      "detergent"
+    ],
+    "price_inr": 175,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P052",
+    "name": "Aashirvaad Atta 5kg",
+    "brand": "Aashirvaad",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "flour",
+      "cooking",
+      "breakfast"
+    ],
+    "price_inr": 265,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P053",
+    "name": "Tata Salt 1kg",
+    "brand": "Tata",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "salt",
+      "cooking"
+    ],
+    "price_inr": 22,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P054",
+    "name": "Fortune Sunflower Oil 1L",
+    "brand": "Fortune",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "oil",
+      "cooking"
+    ],
+    "price_inr": 185,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P055",
+    "name": "India Gate Basmati Rice 1kg",
+    "brand": "India Gate",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "rice",
+      "cooking"
+    ],
+    "price_inr": 170,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P056",
+    "name": "MTR Ready to Eat Poha 250g",
+    "brand": "MTR",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "ready_to_eat",
+      "breakfast",
+      "emergency"
+    ],
+    "price_inr": 75,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P057",
+    "name": "Everest Garam Masala 50g",
+    "brand": "Everest",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "spices",
+      "cooking"
+    ],
+    "price_inr": 55,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P058",
+    "name": "Knorr Soup Mixed Veg 42g",
+    "brand": "Knorr",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "soup",
+      "emergency",
+      "rain"
+    ],
+    "price_inr": 38,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P059",
+    "name": "Kissan Tomato Ketchup 500g",
+    "brand": "Kissan",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "sauce",
+      "ketchup",
+      "party"
+    ],
+    "price_inr": 95,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P060",
+    "name": "Bingo Mad Angles 72g",
+    "brand": "Bingo",
+    "category": "snacks",
+    "tags": [
+      "chips",
+      "snacks",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 20,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P061",
+    "name": "Uncle Chips 60g",
+    "brand": "Uncle Chips",
+    "category": "snacks",
+    "tags": [
+      "chips",
+      "snacks",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 20,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P062",
+    "name": "Britannia Good Day Cookies 100g",
+    "brand": "Britannia",
+    "category": "bakery",
+    "tags": [
+      "biscuits",
+      "cookies",
+      "snacks",
+      "party"
+    ],
+    "price_inr": 35,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P063",
+    "name": "Monaco Biscuits 200g",
+    "brand": "Parle",
+    "category": "bakery",
+    "tags": [
+      "biscuits",
+      "snacks",
+      "party"
+    ],
+    "price_inr": 25,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P064",
+    "name": "Frooti Mango Drink 200ml",
+    "brand": "Frooti",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "juice",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 10,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P065",
+    "name": "Maaza Mango Drink 600ml",
+    "brand": "Maaza",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "juice",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 40,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P066",
+    "name": "Limca 750ml",
+    "brand": "Limca",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "soda",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 42,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P067",
+    "name": "Thums Up 750ml",
+    "brand": "Thums Up",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "soda",
+      "party",
+      "movie_night"
+    ],
+    "price_inr": 45,
+    "rating": 4.8,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P068",
+    "name": "Minute Maid Pulpy Orange 400ml",
+    "brand": "Minute Maid",
+    "category": "beverages",
+    "tags": [
+      "drinks",
+      "juice",
+      "party"
+    ],
+    "price_inr": 38,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P069",
+    "name": "Paper Plates Pack of 50",
+    "brand": "Generic",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "party",
+      "disposable"
+    ],
+    "price_inr": 85,
+    "rating": 4.3,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P070",
+    "name": "Plastic Cups Pack of 50",
+    "brand": "Generic",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "party",
+      "disposable"
+    ],
+    "price_inr": 65,
+    "rating": 4.2,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P071",
+    "name": "Tissue Paper Roll",
+    "brand": "Generic",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "party",
+      "cleaning"
+    ],
+    "price_inr": 45,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P072",
+    "name": "Aluminum Foil 10m",
+    "brand": "Freshwrapp",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "cooking",
+      "storage"
+    ],
+    "price_inr": 68,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P073",
+    "name": "Cling Wrap 30m",
+    "brand": "Freshwrapp",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "storage",
+      "food"
+    ],
+    "price_inr": 55,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P074",
+    "name": "Ziplock Bags Pack of 25",
+    "brand": "Generic",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "storage",
+      "food",
+      "travel"
+    ],
+    "price_inr": 75,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P075",
+    "name": "Santoor Soap 125g",
+    "brand": "Santoor",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "soap",
+      "hygiene"
+    ],
+    "price_inr": 35,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P076",
+    "name": "Head & Shoulders Shampoo 180ml",
+    "brand": "Head & Shoulders",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "shampoo",
+      "hair"
+    ],
+    "price_inr": 220,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P077",
+    "name": "Closeup Toothpaste 150g",
+    "brand": "Closeup",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "toothpaste",
+      "hygiene"
+    ],
+    "price_inr": 85,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P078",
+    "name": "Sensodyne Toothpaste 70g",
+    "brand": "Sensodyne",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "toothpaste",
+      "hygiene"
+    ],
+    "price_inr": 145,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P079",
+    "name": "Oral-B Toothbrush",
+    "brand": "Oral-B",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "toothbrush",
+      "hygiene"
+    ],
+    "price_inr": 65,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P080",
+    "name": "Savlon Antiseptic Liquid 100ml",
+    "brand": "Savlon",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "medicine",
+      "antiseptic",
+      "health"
+    ],
+    "price_inr": 95,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P081",
+    "name": "Band-Aid Pack of 10",
+    "brand": "Band-Aid",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "first_aid",
+      "health"
+    ],
+    "price_inr": 65,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P082",
+    "name": "Cotton Roll 50g",
+    "brand": "Generic",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "first_aid",
+      "cotton",
+      "health"
+    ],
+    "price_inr": 30,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P083",
+    "name": "Mosquito Repellent Coil Pack of 10",
+    "brand": "Good Knight",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "rain",
+      "mosquito",
+      "protection"
+    ],
+    "price_inr": 55,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P084",
+    "name": "All Out Liquid Vaporizer 45ml",
+    "brand": "All Out",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "rain",
+      "mosquito",
+      "protection"
+    ],
+    "price_inr": 125,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P085",
+    "name": "Mortein Mosquito Spray 400ml",
+    "brand": "Mortein",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "rain",
+      "mosquito",
+      "spray"
+    ],
+    "price_inr": 185,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P086",
+    "name": "Highlighter Set of 4",
+    "brand": "Camlin",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "highlighter",
+      "exam",
+      "study"
+    ],
+    "price_inr": 60,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1602178506527-95bc4f5e5276?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P087",
+    "name": "Stapler with Pins",
+    "brand": "Kangaro",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "stapler",
+      "office"
+    ],
+    "price_inr": 85,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P088",
+    "name": "Fevicol All Purpose Glue 100g",
+    "brand": "Fevicol",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "glue",
+      "craft"
+    ],
+    "price_inr": 55,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P089",
+    "name": "A4 Paper Ream 500 Sheets",
+    "brand": "JK Copier",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "paper",
+      "office",
+      "exam"
+    ],
+    "price_inr": 295,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P090",
+    "name": "Marker Pen Set of 6",
+    "brand": "Reynolds",
+    "category": "stationery",
+    "tags": [
+      "stationery",
+      "marker",
+      "office"
+    ],
+    "price_inr": 120,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P091",
+    "name": "Raincoat Poncho",
+    "brand": "Generic",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "rain",
+      "protection",
+      "travel"
+    ],
+    "price_inr": 150,
+    "rating": 4.3,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P092",
+    "name": "Umbrella Compact",
+    "brand": "Generic",
+    "category": "emergency",
+    "tags": [
+      "emergency",
+      "rain",
+      "umbrella",
+      "travel"
+    ],
+    "price_inr": 250,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P093",
+    "name": "Water Bottle 1L",
+    "brand": "Cello",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "bottle",
+      "travel",
+      "exam"
+    ],
+    "price_inr": 120,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1560023907-5f339617ea30?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P094",
+    "name": "Tiffin Box 3 Compartment",
+    "brand": "Milton",
+    "category": "kitchen",
+    "tags": [
+      "kitchen",
+      "tiffin",
+      "travel",
+      "office"
+    ],
+    "price_inr": 295,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P095",
+    "name": "Instant Hand Sanitizer 200ml",
+    "brand": "Dettol",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "sanitizer",
+      "hygiene",
+      "travel"
+    ],
+    "price_inr": 95,
+    "rating": 4.7,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P096",
+    "name": "Face Masks Pack of 10",
+    "brand": "Generic",
+    "category": "personal_care",
+    "tags": [
+      "personal_care",
+      "mask",
+      "hygiene",
+      "protection"
+    ],
+    "price_inr": 80,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P097",
+    "name": "Garbage Bags Pack of 30",
+    "brand": "Shalimar",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "garbage",
+      "kitchen"
+    ],
+    "price_inr": 75,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P098",
+    "name": "Air Freshener Spray 200ml",
+    "brand": "Odonil",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "freshener",
+      "party"
+    ],
+    "price_inr": 135,
+    "rating": 4.5,
+    "in_stock": true,
+    "image_url": ""
+  },
+  {
+    "id": "P099",
+    "name": "Phenyl White 500ml",
+    "brand": "Lizol",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "floor",
+      "disinfectant"
+    ],
+    "price_inr": 65,
+    "rating": 4.4,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  },
+  {
+    "id": "P100",
+    "name": "Colin Glass Cleaner 500ml",
+    "brand": "Colin",
+    "category": "cleaning",
+    "tags": [
+      "cleaning",
+      "glass",
+      "kitchen"
+    ],
+    "price_inr": 125,
+    "rating": 4.6,
+    "in_stock": true,
+    "image_url": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400&q=80&auto=format&fit=crop"
+  }
+]
