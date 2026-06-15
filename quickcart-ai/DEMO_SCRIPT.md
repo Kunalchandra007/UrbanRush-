@@ -33,14 +33,15 @@ That alone wins the core theme. Everything below is "and there's more."
 
 ## The "wow" round (pick 3–4 based on time)
 
-1. **Panic Mode** (top-right red button) → "Zero typing. It reads time, **live weather**, and location to build a cart." (Rainy evening → umbrella + chai + Maggi.)
-2. **Voice** → click 🎙, say *"movie night for five"* → words stream in, cart builds on pause.
-3. **Mood → cart** → type *"I'm feeling low today"* → comfort cart (chocolate, ice cream).
-4. **Recipe → cart** → type *"make maggi for 4"* → exact ingredients, scaled.
-5. **One-tap Switch** → on Pepsi, click **⇄ Switch** → pick Coca-Cola → "And it **remembers** that brand for next time."
-6. **Situational Memory** → run the same chip twice → second time shows *"Last time you ordered…"*
-7. **Predictions** (empty state) → "It predicts what you'll run out of — milk in ~1 day."
-8. **Party Mode** → everyone speaks into one mic, items dedupe into a shared cart.
+1. **Personalized Kits** (home screen, before any input) → point to the "Suggestions for [Name]" row. "Before the user types a single word, we've already predicted what they need — based on their order history, grouped into themed kits. One tap adds the whole kit." *(Kit names: Morning Essentials, Snack Time, Drinks, Personal Care, Kitchen Staples.)*
+2. **Panic Mode** (top-right red button) → "Zero typing. It reads time, **live weather**, and location to build a cart." (Rainy evening → umbrella + chai + Maggi.)
+3. **Voice** → click 🎙, say *"movie night for five"* → words stream in, cart builds on pause.
+4. **Mood → cart** → type *"I'm feeling low today"* → comfort cart (chocolate, ice cream).
+5. **Recipe → cart** → type *"make maggi for 4"* → exact ingredients, scaled.
+6. **One-tap Switch** → on Pepsi, click **⇄ Switch** → pick Coca-Cola → "And it **remembers** that brand for next time."
+7. **Situational Memory** → run the same chip twice → second time shows *"Last time you ordered…"*
+8. **Predictions** (empty state) → "It predicts what you'll run out of — milk in ~1 day."
+9. **Party Mode** → everyone speaks into one mic, items dedupe into a shared cart.
 
 ---
 
@@ -77,6 +78,9 @@ Weave these in so judges hear *what* powers it and *how it scales on Amazon*:
   **Intent API** could sit on top of Amazon's existing fulfilment + catalog as a situational layer.
 - **Show the kits:** "The cart is presented as themed **AI-generated kits** — Comfort, Energy,
   Snacks — each with a match score and a one-line 'why', so the customer decides in one glance."
+- **Show Personalized Kits:** "Even before the user types anything, the home screen shows a
+  **'Suggestions for [Name]'** row — themed kits built from their purchase history. Morning
+  Essentials, Snack Time, Drinks — one tap adds the whole kit. Pure personalization, zero effort."
 
 ---
 

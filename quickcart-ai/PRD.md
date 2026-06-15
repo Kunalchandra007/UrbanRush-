@@ -27,7 +27,7 @@
 
 | Theme verb | How UrbanRush delivers it |
 |------------|---------------------------|
-| **Discover** | Situation text, voice, photo, Panic Mode, predictive nudges |
+| **Discover** | Situation text, voice, photo, Panic Mode, predictive nudges, **Personalized Kits (pre-input, history-based)** |
 | **Decide** | AI-built cart + urgency heatmap + confidence + reasons + one-tap swap |
 | **Purchase** | One-tap review cart + steppers + regret-free checkout |
 
@@ -52,6 +52,7 @@
 - **Panic Mode** — zero typing; reads time + live weather + location.
 - **One-tap Swap** — remove/switch any item, 3 AI-ranked alternatives appear inline (and it **learns your brand preference**).
 - **AI-Generated Kits** — the cart is presented as themed bundles (Comfort / Energy / Snack kits) each with a match score + one-line "why" + Explain/Edit.
+- **Personalized Kits row** — on the home screen, *before* the user types anything, a "Suggestions for [Name]" strip shows themed kits (Morning Essentials, Snack Time, Drinks, Personal Care, Kitchen Staples) built from their on-device purchase history. Each kit has product thumbnails, item name pills, a "why" line, total price, and a single "Add all" button. Zero AI cost — pure client-side personalization that surfaces intent proactively.
 - **Personalization** — greeting, "Your usual" badges, depletion prediction ("milk runs out in ~1 day"), weekly budget envelope, learned brand preference.
 - **Beyond-feature differentiators** — Situational Memory (replay), Live Thinking Stream, Cart Diff, Crisis Triage, Party Mode (group voice cart), Mood→cart, Recipe→cart.
 

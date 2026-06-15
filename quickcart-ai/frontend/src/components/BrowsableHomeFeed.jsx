@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { searchProducts } from "../utils/api";
 import ProductCard from "./ProductCard";
+import PersonalizedKitsRow from "./PersonalizedKitsRow";
 
 const CATEGORY_TABS = [
   { key: "all", label: "✨ All" },
@@ -33,6 +34,9 @@ export default function BrowsableHomeFeed({ quantities, usualIds, onAdd, onRemov
 
   return (
     <div>
+      {/* Personalized kits from purchase history */}
+      <PersonalizedKitsRow quantities={quantities} onAdd={onAdd} />
+
       {/* Compact headline */}
       <div className="px-1 mb-4">
         <h2 className="text-lg font-extrabold text-slate-800 leading-tight">
