@@ -8,8 +8,10 @@ UrbanRush is a Blinkit/Instamart-style quick-commerce app where you describe a
 prioritized, explained shopping cart — collapsing **discover → decide → purchase**
 into ~15 seconds instead of 5 minutes of manual searching.
 
-> 📐 For a full system walkthrough see **[ARCHITECTURE.md](./ARCHITECTURE.md)**.
-> 📝 Pitch & problem fit: **[PRD.md](./PRD.md)** · 🎬 Demo: **[DEMO_SCRIPT.md](./DEMO_SCRIPT.md)** · 🚀 Hosting: **[DEPLOYMENT.md](./DEPLOYMENT.md)**
+> 📐 For a full system walkthrough see **[ARCHITECTURE.md](./quickcart-ai/ARCHITECTURE.md)**.
+> 📝 Pitch & problem fit: **[PRD.md](./quickcart-ai/PRD.md)**
+
+> 🎬 **[Watch Demo Video](https://drive.google.com/file/d/1i8MYOW6voB7rTc3YjPo-JbVJIF9iVXDI/view)**
 
 ---
 
@@ -147,7 +149,7 @@ npm run dev
 Open **http://localhost:5173/**
 
 > To point the frontend at a deployed backend, set `VITE_API_BASE` (e.g. in `frontend/.env`).
-> Defaults to `http://localhost:8000`. See **[DEPLOYMENT.md](./DEPLOYMENT.md)**.
+> Defaults to `http://localhost:8000`.
 
 ---
 
